@@ -1,0 +1,85 @@
+# Ignore hidden files
+.*
+
+# Add git configurations
+!.gitignore
+!.gitlab-ci.yml
+!.gitattributes
+
+# Ignore latex build files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex
+*.synctex.gz
+*.toc
+*.lol
+*.lof
+*.lot
+*.loe
+
+# Ignore xelatex build files
+*.xdv
+
+# Ignore output pdf
+*.pdf
+
+# Add figures and logos
+!figures/*.PDF
+!doc/thesis/template/logos/*.pdf
+!doc/colloquium/template/logos/*.pdf
+!doc/thesis/content/*.pdf
+
+# Ignore MacOS system data
+*.DS_Store
+
+# Ignore VIM editor files
+*.swp
+*.swo
+
+# Ignore TikzEdt helper files
+*.preview.tex
+*.preview.pdf
+*.preview_BB.txt
+
+# Ignore Latexian (MacOS) helper files
+*LatexianTemp*
+
+# Ignore eps plots from MATLAB export
+*.eps
+
+# Ignore nomenclature files
+*.ilg
+*.nlo
+*.nls
+
+# Ignore breamer helper files
+*.nav
+*.snm
+*.vrb
+
+# Ignore svg files
+*.svg
+
+# Ignore python cache files
+*.pyc
+
+# Ignore build
+build*/*
+*.mod
+*.o
+
+# Ignore work in progress folder
+.wip/*
+
+# Ignore vs code configuration
+*/.vscode/*
+.vscode/*
+*/ignored/*
+
+# Ignore cpplint configuration files
+CPPLINT.cfg
