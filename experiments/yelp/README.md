@@ -18,7 +18,7 @@ The folder structure of `data` folder is as follows:
 
 ```
 data
-│───raw
+│───raw 
 │   │
 │   │───csv
 │   │   │
@@ -36,8 +36,7 @@ data
 │   │ 
 │   │───final_data_useful_gte_10.csv
 │   │───processed_review_data.csv
-│   └───yelp_db.sqlite (Might be missing due to size constraints but can be 
-│                       regenerated using 01_data_modelling.ipynb)
+│   └───yelp_db.sqlite 
 │
 │───01_data_modelling.ipynb
 │───02_feature_extraction.ipynb
