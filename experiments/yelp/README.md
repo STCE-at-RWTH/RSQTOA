@@ -18,7 +18,7 @@ The folder structure of `data` folder is as follows:
 
 ```
 data
-│───raw 
+│───raw
 │   │
 │   │───csv
 │   │   │
@@ -53,14 +53,12 @@ notebook. For more detailed information, please visit the specific notebook.
   files from the `json` files. As the size of the dataset is quite
   large. Hence, we created a SQL database based on the csv files that would be quite
   helpful as we might need to perform join and search operation in feature extraction
-  stage. One can skip running the notebook and move to the next step i.e.
-  [02_feature_extraction.ipynb] if the sqlite is present.
+  stage. **Note:** we cannot publish the Yelp Data. Please follow [raw json files instructions] 
+  to download the raw `json` files and place them at respective directory. 
 - **[02_feature_extraction.ipynb]**: This notebook is concerned with generating
   the additional features that might be helpful in building a good regressor. Please
   refer to the file for more detailed description of feature generation process.
-  The output of this notebook is [final_data_useful_gte_10.csv]. One can skip this
-  step and move to next step of selecting important features using
-  [03_feature_selection.ipynb].
+  The output of this notebook is [final_data_useful_gte_10.csv]. 
 - **[03_feature_selection.ipynb]**: This notebook is concerned with feature
   transformation and more importantly selecting important features out of all the
   features. Please refer to the notebook for more detailed documentation and step
@@ -158,3 +156,5 @@ comparative performance scores.
 [interpolator]: models/interpolator
 [linear_regression]: models/linear_regression
 [plots.ipynb]: models/plots.ipynb
+[raw json files instructions]: data/raw/json
+[raw csv files instructions]: data/raw/csv

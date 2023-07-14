@@ -76,6 +76,11 @@ build*/*
 CPPLINT.cfg
 
 # ignore publishing yelp dataset
-experiments/yelp/data/raw/*
+experiments/yelp/data/raw/csv/yelp_academic_dataset_business.csv
+experiments/yelp/data/raw/csv/yelp_academic_dataset_user.csv
+experiments/yelp/data/raw/csv/yelp_academic_dataset_review.csv
+experiments/yelp/data/raw/json/yelp_academic_dataset_business.json
+experiments/yelp/data/raw/json/yelp_academic_dataset_user.json
+experiments/yelp/data/raw/json/yelp_academic_dataset_review.json
 experiments/yelp/data/intermediate/yelp_db.sqlite
 experiments/yelp/data/intermediate/processed_review_data.csv
