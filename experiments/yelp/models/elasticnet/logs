@@ -1,0 +1,243 @@
+/opt/anaconda3/envs/rsqtoa/bin/python /Users/ashish/work/thesis/rsqtoa/experiments/yelp/models/elasticnet/runner.py
+Fold :: 1
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.639e+00, tolerance: 1.213e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  4.057419061660767
+MS Error (Train) :: 0.008556755103580352
+RMS Error (Train) :: 0.09250273024933021
+MAE Error (Train) :: 0.06851742955005106
+R^2 Score (Train) :: 0.6875062253346511
+MS Error (Test) :: 0.008618313185354543
+RMS Error (Test) :: 0.09283487052479011
+MAE Error (Test) :: 0.06938515712258192
+R^2 Score (Test) :: 0.674694374816273
+Fold :: 2
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.589e+00, tolerance: 1.211e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  4.152798891067505
+MS Error (Train) :: 0.008558257879308041
+RMS Error (Train) :: 0.09251085276500289
+MAE Error (Train) :: 0.06853911185047602
+R^2 Score (Train) :: 0.6870393512151396
+MS Error (Test) :: 0.00864572358049482
+RMS Error (Test) :: 0.09298238317280763
+MAE Error (Test) :: 0.06888933098224855
+R^2 Score (Test) :: 0.6818532419249663
+Fold :: 3
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.783e+00, tolerance: 1.209e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  4.204763889312744
+MS Error (Train) :: 0.00853181797462613
+RMS Error (Train) :: 0.09236784058657066
+MAE Error (Train) :: 0.06842918021150683
+R^2 Score (Train) :: 0.6874213716990145
+MS Error (Test) :: 0.009141249813855801
+RMS Error (Test) :: 0.09560988345278851
+MAE Error (Test) :: 0.07113823039287147
+R^2 Score (Test) :: 0.6752573429048313
+Fold :: 4
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.012e+00, tolerance: 1.209e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  5.653936147689819
+MS Error (Train) :: 0.00855041441150872
+RMS Error (Train) :: 0.0924684508981778
+MAE Error (Train) :: 0.06856299600590164
+R^2 Score (Train) :: 0.686624639312656
+MS Error (Test) :: 0.00874312190925858
+RMS Error (Test) :: 0.0935046625001052
+MAE Error (Test) :: 0.06837938351560376
+R^2 Score (Test) :: 0.691500596930838
+Fold :: 5
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.051e+00, tolerance: 1.213e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  4.5368218421936035
+MS Error (Train) :: 0.008588364743340661
+RMS Error (Train) :: 0.09267343062248565
+MAE Error (Train) :: 0.06867654145086827
+R^2 Score (Train) :: 0.686441499520466
+MS Error (Test) :: 0.008048178316607032
+RMS Error (Test) :: 0.08971163980558505
+MAE Error (Test) :: 0.06650084182423892
+R^2 Score (Test) :: 0.6944964124955649
+Fold :: 6
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.657e+00, tolerance: 1.209e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  4.113722801208496
+MS Error (Train) :: 0.00855443602187127
+RMS Error (Train) :: 0.09249019419306714
+MAE Error (Train) :: 0.0685255087465795
+R^2 Score (Train) :: 0.6867177214120787
+MS Error (Test) :: 0.008670513630556504
+RMS Error (Test) :: 0.09311559284328541
+MAE Error (Test) :: 0.06920954901201917
+R^2 Score (Test) :: 0.6896691053412509
+Fold :: 7
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.954e+00, tolerance: 1.210e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  4.174054145812988
+MS Error (Train) :: 0.008544413866567279
+RMS Error (Train) :: 0.09243599875896445
+MAE Error (Train) :: 0.06844633647899954
+R^2 Score (Train) :: 0.6872726023809587
+MS Error (Test) :: 0.008892928281971595
+RMS Error (Test) :: 0.09430232384184176
+MAE Error (Test) :: 0.07044479906793727
+R^2 Score (Test) :: 0.6781477694887004
+Fold :: 8
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.602e+00, tolerance: 1.211e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  4.418076276779175
+MS Error (Train) :: 0.008597176875940374
+RMS Error (Train) :: 0.09272096244075756
+MAE Error (Train) :: 0.06869854551694435
+R^2 Score (Train) :: 0.6855553905636842
+MS Error (Test) :: 0.00789193218147954
+RMS Error (Test) :: 0.08883654755493113
+MAE Error (Test) :: 0.06626915886437168
+R^2 Score (Test) :: 0.7104172072262604
+Fold :: 9
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.462e+00, tolerance: 1.204e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  4.461185932159424
+MS Error (Train) :: 0.008548222942747152
+RMS Error (Train) :: 0.09245660032008073
+MAE Error (Train) :: 0.06853537448879093
+R^2 Score (Train) :: 0.6855692980035537
+MS Error (Test) :: 0.008833050786667554
+RMS Error (Test) :: 0.09398431138582415
+MAE Error (Test) :: 0.06898085008654216
+R^2 Score (Test) :: 0.7075015287413791
+Fold :: 10
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.948e+00, tolerance: 1.212e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  4.223653793334961
+MS Error (Train) :: 0.008579242712296613
+RMS Error (Train) :: 0.09262420154741748
+MAE Error (Train) :: 0.06858252310236206
+R^2 Score (Train) :: 0.686460853820542
+MS Error (Test) :: 0.00816481955855958
+RMS Error (Test) :: 0.09035939109223556
+MAE Error (Test) :: 0.0675457494932381
+R^2 Score (Test) :: 0.6958947728842315
+Fold :: 11
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.007e+00, tolerance: 1.209e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  4.286553144454956
+MS Error (Train) :: 0.008563111565901789
+RMS Error (Train) :: 0.09253708211253361
+MAE Error (Train) :: 0.06857178146847788
+R^2 Score (Train) :: 0.6862224796569668
+MS Error (Test) :: 0.008486417248887618
+RMS Error (Test) :: 0.09212175231120834
+MAE Error (Test) :: 0.06839108972969729
+R^2 Score (Test) :: 0.6993694054708672
+Fold :: 12
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.412e+00, tolerance: 1.211e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  4.275151968002319
+MS Error (Train) :: 0.008565073533076187
+RMS Error (Train) :: 0.09254768248355108
+MAE Error (Train) :: 0.06855819059789339
+R^2 Score (Train) :: 0.6868631221682406
+MS Error (Test) :: 0.00844757283602797
+RMS Error (Test) :: 0.09191067857451586
+MAE Error (Test) :: 0.06807592425624952
+R^2 Score (Test) :: 0.6876984916922274
+Fold :: 13
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.562e+00, tolerance: 1.210e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  4.49071192741394
+MS Error (Train) :: 0.008558842204956002
+RMS Error (Train) :: 0.09251401085757768
+MAE Error (Train) :: 0.06850201990955042
+R^2 Score (Train) :: 0.686744068121163
+MS Error (Test) :: 0.008571731071757393
+RMS Error (Test) :: 0.09258364365133505
+MAE Error (Test) :: 0.06899012476801511
+R^2 Score (Test) :: 0.6897585997294124
+Fold :: 14
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.506e+00, tolerance: 1.211e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  4.121712923049927
+MS Error (Train) :: 0.008581396778976432
+RMS Error (Train) :: 0.0926358288081692
+MAE Error (Train) :: 0.0686508924724731
+R^2 Score (Train) :: 0.6861459357144987
+MS Error (Test) :: 0.00818270851009644
+RMS Error (Test) :: 0.09045832471418228
+MAE Error (Test) :: 0.06679550067885624
+R^2 Score (Test) :: 0.6997821131387951
+Fold :: 15
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.912e+00, tolerance: 1.209e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  4.192827224731445
+MS Error (Train) :: 0.00852771524581674
+RMS Error (Train) :: 0.09234562927294794
+MAE Error (Train) :: 0.06843836044952153
+R^2 Score (Train) :: 0.6874755013466691
+MS Error (Test) :: 0.009230600833999302
+RMS Error (Test) :: 0.09607601591447942
+MAE Error (Test) :: 0.07049128761234826
+R^2 Score (Test) :: 0.6739387892546037
+Fold :: 16
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.863e+00, tolerance: 1.214e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  4.0818891525268555
+MS Error (Train) :: 0.008565463445211679
+RMS Error (Train) :: 0.09254978900684582
+MAE Error (Train) :: 0.06860661901415982
+R^2 Score (Train) :: 0.6874736138459455
+MS Error (Test) :: 0.008542808879653774
+RMS Error (Test) :: 0.09242731673944546
+MAE Error (Test) :: 0.06799067144496673
+R^2 Score (Test) :: 0.6716005925251612
+Fold :: 17
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.798e+00, tolerance: 1.213e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  4.2091686725616455
+MS Error (Train) :: 0.008550134457659352
+RMS Error (Train) :: 0.09246693710542894
+MAE Error (Train) :: 0.06847411048470539
+R^2 Score (Train) :: 0.6878825794528349
+MS Error (Test) :: 0.008711738709461427
+RMS Error (Test) :: 0.09333669540679822
+MAE Error (Test) :: 0.06964319088145675
+R^2 Score (Test) :: 0.6682888610330942
+Fold :: 18
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.068e+00, tolerance: 1.212e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  4.161003112792969
+MS Error (Train) :: 0.008536553121886437
+RMS Error (Train) :: 0.09239346904346886
+MAE Error (Train) :: 0.06847161269401938
+R^2 Score (Train) :: 0.6881554501093929
+MS Error (Test) :: 0.009013178224708093
+RMS Error (Test) :: 0.09493775974135946
+MAE Error (Test) :: 0.07056336716390414
+R^2 Score (Test) :: 0.6615375147877767
+Fold :: 19
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.550e+00, tolerance: 1.213e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  4.2141618728637695
+MS Error (Train) :: 0.008584247572964844
+RMS Error (Train) :: 0.09265121463297091
+MAE Error (Train) :: 0.0686712496222441
+R^2 Score (Train) :: 0.686636143346787
+MS Error (Test) :: 0.008112389734902688
+RMS Error (Test) :: 0.09006880555943156
+MAE Error (Test) :: 0.06623354556016897
+R^2 Score (Test) :: 0.6908240630540055
+Fold :: 20
+/opt/anaconda3/envs/rsqtoa/lib/python3.7/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.464e+00, tolerance: 1.212e-01
+  coef_, l1_reg, l2_reg, X, y, max_iter, tol, rng, random, positive
+Training Time ::  4.4516589641571045
+MS Error (Train) :: 0.008562961966320013
+RMS Error (Train) :: 0.0925362737866617
+MAE Error (Train) :: 0.06856996761450555
+R^2 Score (Train) :: 0.6871925381737022
+MS Error (Test) :: 0.008458686384343673
+RMS Error (Test) :: 0.09197111712023331
+MAE Error (Test) :: 0.06781957006768677
+R^2 Score (Test) :: 0.682444588493686
+
+Process finished with exit code 0

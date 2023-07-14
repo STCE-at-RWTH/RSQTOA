@@ -1,0 +1,35 @@
+# General options
+output_dir: ~
+
+# Model definiton
+model_module: ~
+model_function: f
+dimensions: 4
+# lower_bounds: [50, 50, 0.01, 0.01]
+# upper_bounds: [70, 70, 0.1, 0.1]
+lower_bounds: [50, 52, 0.04, 0.01]
+upper_bounds: [60, 62, 0.05, 0.02]
+
+# RSQTOA hyper-parameter
+epsilon: 0.15
+sampling_strategy: "latin"
+regression_samples: 50
+test_samples: 100
+test_values: 4
+max_taylor_order: 5
+debug: True
+
+# Sampling
+taylor_regression_samples: 1
+periodic_regression_samples: 0
+exponential_regression_samples: 0
+regression_selection: "greedy"
+
+# Domain decomposition
+subspace_ordering: "area"
+subspace_depth: 3
+subspace_threshold: 1e-4
+subspace_needs_regression: False
+subspace_selection: "greedy"
+subspace_expansion_steps: 3
+subspace_reduction_steps: 3
