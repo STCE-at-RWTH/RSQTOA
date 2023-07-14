@@ -1,0 +1,18 @@
+# General options
+output_dir: ~
+
+# Model definiton
+model_module: ~
+model_function: f
+dimensions: 2
+lower_bounds: [0, 0]
+upper_bounds: [1, 1]
+
+# RSQTOA hyper-parameter
+epsilon: ~
+sampling_strategy: "latin"
+regression_samples: 10
+test_samples: 2
+test_values: 5
+max_taylor_order: 1
+debug: True

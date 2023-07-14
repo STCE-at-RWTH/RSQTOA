@@ -1,0 +1,28 @@
+# RSQTOA hyper-parameter
+#epsilon: 1e-3
+epsilon: 9e-1
+sampling_strategy: "latin"
+regression_samples: 80
+test_samples: 80
+test_values: 40
+max_taylor_order: 1
+debug: True
+
+# Non-Separable approximator parameters
+approximator_train_samples: 20000
+approximator_test_samples: 4000
+
+# Sampling
+taylor_regression_samples: 80
+periodic_regression_samples: 0
+exponential_regression_samples: 0
+regression_selection: "best"
+
+# Domain decomposition
+subspace_ordering: "default"
+subspace_depth: 0
+subspace_threshold: 0
+subspace_needs_regression: False
+subspace_selection: "best"
+subspace_expansion_steps: 0
+subspace_reduction_steps: 0

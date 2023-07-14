@@ -1,0 +1,42 @@
+# General settings
+output_dir: ~
+tmp_dir: ~
+
+# Model definiton
+model_dir: ~
+model_file: ~
+model_module: ~
+model_function: ~
+dimensions: ~
+lower_bounds: []
+upper_bounds: []
+debug: False
+
+# RSQTOA hyper-parameter
+epsilon: ~
+epsilon_input_file: ~
+epsilon_output_file: ~
+sampling_strategy: "latin"
+regression_samples: 1
+test_samples: 1
+test_values: 1
+
+# Regression
+max_taylor_order: 1
+taylor_regression_samples: 20
+periodic_regression_samples: 0
+exponential_regression_samples: 0
+regression_selection: "greedy"
+
+# Domain decomposition
+subspace_ordering: "default"
+subspace_depth: 0
+subspace_threshold: 1e-3
+subspace_needs_regression: True
+subspace_selection: "greedy"
+subspace_expansion_steps: 0
+subspace_reduction_steps: 0
+
+# Non-Separable approximator parameters
+approximator_train_samples: 100
+approximator_test_samples: 50

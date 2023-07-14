@@ -1,0 +1,32 @@
+# General options
+output_dir: ~
+
+# Model definiton
+model_function: diffusion
+dimensions: 3
+lower_bounds: [0, 0, 0]
+upper_bounds: [10, 1, 1]
+
+# RSQTOA hyper-parameter
+epsilon: 0.01
+sampling_strategy: "latin"
+regression_samples: 20
+test_samples: 25
+test_values: 2
+max_taylor_order: 3
+debug: True
+
+# Sampling
+taylor_regression_samples: 1
+periodic_regression_samples: 0
+exponential_regression_samples: 0
+regression_selection: "greedy"
+
+# Domain decomposition
+subspace_ordering: "min_error"
+subspace_depth: 0
+subspace_threshold: 1e-4
+subspace_needs_regression: False
+subspace_selection: "greedy"
+subspace_expansion_steps: 3
+subspace_reduction_steps: 3

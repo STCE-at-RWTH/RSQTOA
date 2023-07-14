@@ -1,0 +1,27 @@
+# Model definiton
+dimensions: 2
+lower_bounds: [0, 0]
+upper_bounds: [1, 1]
+
+# RSQTOA hyper-parameter
+epsilon: 1e-3
+sampling_strategy: "latin"
+regression_samples: 20
+test_samples: 20
+test_values: 5
+max_taylor_order: 2
+debug: True
+
+# Sampling
+periodic_regression_samples: 0
+exponential_regression_samples: 0
+regression_selection: "greedy"
+
+# Domain decomposition
+subspace_ordering: "default"
+subspace_depth: 1
+subspace_threshold: 1e-3
+subspace_needs_regression: True
+subspace_selection: "greedy"
+subspace_expansion_steps: 5
+subspace_reduction_steps: 0
