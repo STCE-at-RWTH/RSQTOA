@@ -25,6 +25,8 @@ regressor. Consequently, the framework depends on sampling to obtain a represent
 identify the underlying structure and relationships between the feature and target variables. For more detailed
 description of frameworks implementation and background please refer to [Simon L. Märtens, 2022].
 
+#### Usage Examples: [Function based experiments]
+
 ### Compatibility with Datasets
 
 In order to extend the capabilities of the RSQTOA framework, which focuses on producing approximate models for
@@ -49,6 +51,8 @@ this analysis contribute to a better understanding of the advantages and limitat
 traditional ANN-based models. For more detailed description of frameworks implementation and background please refer to 
 [Ashish Rajani, 2023].
 
+#### Usage Examples: [Data based experiments]
+
 ## Dependencies:
 
 The framework is compatible with `python 3.7`. Furthermore, for the dependencies please refer to [requirements.txt]. In
@@ -67,7 +71,9 @@ still under development, please refer to the detailed report by [Simon L. Märte
 
 [Simon L. Märtens, 2022]: /report/01_RSQTOA_Framework_Simon_Maertens.pdf
 [Ashish Rajani, 2023]: /report/02_RSQTOA_Framework_Dataset_Adoption_Ashish_Rajani.pdf
+[Function based experiments]: /case_studies/python
 [experiments]: /experiments/README.md
+[Data based experiments]: /experiments/README.md
 [Synthetic Dataset]: /experiments/synthetic/README.md
 [Yelp Dataset]: /experiments/yelp/README.md
 [requirements.txt]: requirements.txt
