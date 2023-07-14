@@ -74,3 +74,8 @@ build*/*
 
 # Ignore cpplint configuration files
 CPPLINT.cfg
+
+# ignore publishing yelp dataset
+experiments/yelp/data/raw/*
+experiments/yelp/data/intermediate/yelp_db.sqlite
+experiments/yelp/data/intermediate/processed_review_data.csv
