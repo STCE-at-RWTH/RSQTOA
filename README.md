@@ -51,7 +51,9 @@ traditional ANN-based models. For more detailed description of frameworks implem
 
 ## Dependencies:
 
-activate your virtualenv
+The framework is compatible with `python 3.7`. Furthermore, for the dependencies please refer to [requirements.txt]. In
+order to install dependencies. Create and activate a new virtual environment if needed and execute the following command: 
+
 
 ```
 pip3 install -r requirements.txt
@@ -59,11 +61,13 @@ pip3 install -r requirements.txt
 
 ## Usage
 
-There are case studies in the /case_studies folder which demonstrate the python interface.
-
+For detailed description and usage guidance please refer to [experiments]. The code published with the experiments
+provide a good idea of how the framework in different settings can be used. Its worth noting that the framework  is 
+still under development, please refer to the detailed report by [Simon L. Märtens, 2022] and [Ashish Rajani, 2023].
 
 [Simon L. Märtens, 2022]: /report/01_RSQTOA_Framework_Simon_Maertens.pdf
 [Ashish Rajani, 2023]: /report/02_RSQTOA_Framework_Dataset_Adoption_Ashish_Rajani.pdf
 [experiments]: /experiments/README.md
 [Synthetic Dataset]: /experiments/synthetic/README.md
 [Yelp Dataset]: /experiments/yelp/README.md
+[requirements.txt]: requirements.txt
