@@ -25,14 +25,6 @@
 # Ignore xelatex build files
 *.xdv
 
-# Ignore output pdf
-*.pdf
-
-# Add figures and logos
-!figures/*.PDF
-!doc/thesis/template/logos/*.pdf
-!doc/colloquium/template/logos/*.pdf
-!doc/thesis/content/*.pdf
 
 # Ignore MacOS system data
 *.DS_Store
@@ -43,7 +35,6 @@
 
 # Ignore TikzEdt helper files
 *.preview.tex
-*.preview.pdf
 *.preview_BB.txt
 
 # Ignore Latexian (MacOS) helper files
